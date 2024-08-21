@@ -2,6 +2,58 @@ body {
   background: #ce2178;
 }
 .container {
-  background: white;
+  background: rgb(255, 255, 255);
   margin: 50px auto;
+}
+
+.row {
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+
+.main-block-text {
+  margin-top: 200px;
+  line-height: 1.5;
+  padding-right: 0;
+  padding-left: 30px;
+}
+
+.main-block-text h1 {
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+.main-block-text h3 {
+  font-size: 20px;
+}
+
+.main-block-text h4 {
+  font-size: 40px;
+}
+
+.nokia-c3-02 {
+  margin-top: 85px;
+  width: 300px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 24px;
+}
+
+.grid-3-cols {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background: rgba(206, 33, 120, 0.6);
+  margin-bottom: 50px;
+}
+
+footer {
+  color: white;
+}
+
+footer a {
+  color: #ff83c1;
 }

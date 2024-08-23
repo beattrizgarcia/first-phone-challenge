@@ -1,13 +1,24 @@
 body {
   background: #ce2178;
+  font-family: "Montserrat", sans-serif;
 }
 .container {
   background: rgb(255, 255, 255);
   margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hands-img {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
 }
 
 .row {
-  margin-right: 150px;
+  margin-top: 0;
+  margin-right: 30px;
   margin-bottom: 50px;
 }
 
@@ -21,19 +32,31 @@ body {
 .main-block-text h1 {
   margin-bottom: 15px;
   font-size: 13px;
+  font-weight: bold;
+  color: rgb(73, 73, 73);
 }
 
 .main-block-text h3 {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .main-block-text h4 {
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fa479b;
+  text-shadow: 1px 1px 1px #e43d8b, 0 0 1em #ce2178, 0 0 0.2em #000000;
+}
+
+.main-block-text h4:hover {
+  transform: translateY(10px);
 }
 
 .nokia-c3-02 {
-  margin-top: 85px;
   width: 300px;
+}
+
+.nokia-c3-02:hover {
+  opacity: 0.8;
 }
 
 .grid {
@@ -48,10 +71,26 @@ body {
 .card {
   background: rgba(206, 33, 120, 0.6);
   margin-bottom: 50px;
+  text-align: center;
+  color: rgb(58, 58, 58);
+  padding: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card a {
+  background: white;
+  color: #ce2178;
+  font-weight: bold;
+}
+
+.card a:hover {
+  background: #bc2071;
 }
 
 footer {
   color: white;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 footer a {
